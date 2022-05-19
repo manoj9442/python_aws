@@ -22,6 +22,18 @@ What is EC2 Reserved Instance (RIs)?
         
  How to convert On-Demand Instance into a Reserved Instance?
  
-      We can purchase Reserved instance from console and it wil apply automatically to on-demand instance if we are using any of same configuration.
+      We can purchase Reserved instance from console and it will also apply automatically to on-demand instance if we are using any of same configuration of RIs.
+      
+      To convert On-Demand instance into Reserved instance, ensure that we specify following information in the configuaration of On-Demand:
+      Platfrom: We must specify an AMI that matches the platform of RIs.
+      
+      Instance Type: We must specify same instance type as Your Reserved Instance.
+      
+      Availability Zone: We must launch instance in same availabe  zone.
+      
+      Tenancy : The tenancy of instance must match tenancy of our reserved instance.
+      
+      
+      
      
      
