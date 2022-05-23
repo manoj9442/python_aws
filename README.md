@@ -33,6 +33,7 @@ What is EC2 Reserved Instance (RIs)?
       
       Tenancy : The tenancy of instance must match tenancy of our reserved instance.
       
+      Instance Size Flexibility: With Instance size flexibility, the reserved instance discount applies to instance usage within the instance family. The Reserved instance applied from smallest to  largest instance size within instance family based on normalization factor. Instance Size flexibility applies only to Regional insatnces. Instance size flexibility is determined by normalization factor of instance size. For Example, a t2.medium instance has a normalization factor of 2. If you purchase a t2.medium reserved instance and you have two t2.small insatnces are running then benefit of billing is applied in full on both instances or if you have one t2.large insatnce running then billing benefit is applied to 50% of the usage of the insatnce.
       
       
      
